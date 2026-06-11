@@ -18,6 +18,7 @@ miniutils --help
 
 <!-- COMMANDS:BEGIN -->
 - `miniutils weather <city>` — show mock weather (by Alice)
+- `miniutils todo add|list|done` — tiny todo list (by Bob)
 <!-- COMMANDS:END -->
 
 ## Contributing

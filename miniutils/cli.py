@@ -16,6 +16,9 @@ def build_parser() -> argparse.ArgumentParser:
     # === REGISTER:BEGIN ===
     from miniutils.commands import weather
     weather.register(subparsers)
+
+    from miniutils.commands import todo
+    todo.register(subparsers)
     # === REGISTER:END ===
 
     return parser
