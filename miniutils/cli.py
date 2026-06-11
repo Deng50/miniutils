@@ -21,6 +21,8 @@ def build_parser() -> argparse.ArgumentParser:
     todo.register(subparsers)
     from miniutils.commands import convert
     convert.register(subparsers)
+    from miniutils.commands import quote
+    quote.register(subparsers)
     # === REGISTER:END ===
 
     return parser
