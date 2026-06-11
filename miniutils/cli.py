@@ -14,10 +14,8 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     # === REGISTER:BEGIN ===
-    # Contributors: import your module and call its `register(subparsers)` here.
-    # Example:
-    #     from miniutils.commands import weather
-    #     weather.register(subparsers)
+    from miniutils.commands import weather
+    weather.register(subparsers)
     # === REGISTER:END ===
 
     return parser
