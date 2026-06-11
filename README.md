@@ -19,6 +19,7 @@ miniutils --help
 <!-- COMMANDS:BEGIN -->
 - `miniutils weather <city>` — show mock weather (by Alice)
 - `miniutils todo add|list|done` — tiny todo list (by Bob)
+- `miniutils convert <value> <src> <dst>` — unit converter (by Carol)
 <!-- COMMANDS:END -->
 
 ## Contributing
