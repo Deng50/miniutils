@@ -17,7 +17,7 @@ miniutils --help
 ## Available commands
 
 <!-- COMMANDS:BEGIN -->
-_No commands yet. Each contributor adds one here._
+- `miniutils weather <city>` — show mock weather (by Alice)
 <!-- COMMANDS:END -->
 
 ## Contributing
